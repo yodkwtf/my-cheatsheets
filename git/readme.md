@@ -9,7 +9,7 @@ This cheatsheet includes all the basic git commands. I keep updating the cheatsh
 | `cd <directory>`                |                        Switch between directories                         |
 | `ls`                            |          will **l**i**s**t the contents of the current directory          |
 | `pwd`                           |    **P**rint **W**orking **D**irectory - prints the current directory     |
-| `git init`                      |                             Intialize a repo                              |
+| `git init`                      |                             Initialize a repo                             |
 | `git status`                    |                     Check the tracked status of files                     |
 | `git add <file>`                |                      Track changes to a file to git                       |
 | `git add .`                     |                   Track changes to all the files to git                   |

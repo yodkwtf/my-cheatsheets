@@ -10,7 +10,8 @@ This repo consists a collection of all my cheatsheets. I created these while lea
 
 - [Git Commands](https://drive.google.com/file/d/1Hr2bzduRZXtDO5jiYDcBeyqIa8xgjefI/view?usp=sharing)
 - [Python Fundamentals](https://drive.google.com/file/d/1KSPASGV9Nz1rZuVT4wXIfEcPkClNuu1s/view?usp=sharing)
-- [TypeScript](https://drive.google.com/file/d/1H-Sn67-XpCIWr-nGPQpk7lm0JAuXrRBB/view?usp=sharing)
+- [TypeScript Cheatsheet](https://drive.google.com/file/d/1H-Sn67-XpCIWr-nGPQpk7lm0JAuXrRBB/view?usp=sharing)
+- [The Interview Guide](https://drive.google.com/file/d/1W4CHYeXOr8FzA5vajqlxmiDf18lpIX1c/view?usp=sharing)
 
 ## Conclusion
 
