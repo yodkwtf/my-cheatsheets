@@ -9,7 +9,7 @@ I created these while learning the respective technologies and thought I'd combi
 | Topic                         |                 Source                  |                                          Download (PDF)                                           |
 | :---------------------------- | :-------------------------------------: | :-----------------------------------------------------------------------------------------------: |
 | Angular Guide                 |     [View Here](/angular/readme.md)     | [Download](https://drive.google.com/file/d/1Pwv-O9mkwrszYUyrnOonjwcWROd5RXPw/view?usp=drive_link) |
-| C++ Fundamentals              |       [View Here](/c++/readme.md)       | [Download](https://drive.google.com/file/d/1gs8zdVPVTMtO_BxIS-wlAJ3qYTZsBgXt/view?usp=drive_link) |
+| C++ Fundamentals              |       [View Here](/c++/readme.md)       | [Download](https://drive.google.com/file/d/1hZRy_ywvYQEQs3kJ-OQ2o2ZP5o2n9BR6/view?usp=drive_link) |
 | Docker-101                    |     [View Here](/docker/readme.md)      | [Download](https://drive.google.com/file/d/1QnHtPVg7yn-eGyuPYhayhujBYWu-gulV/view?usp=drive_link) |
 | Git Commands                  |  [View Here](/git-commands/readme.md)   | [Download](https://drive.google.com/file/d/1Hr2bzduRZXtDO5jiYDcBeyqIa8xgjefI/view?usp=share_link) |
 | Java Fundamentals             |      [View Here](/java/readme.md)       | [Download](https://drive.google.com/file/d/1FPYiX-m3Mq6FXva-M0LTAkjkb7biIoOc/view?usp=share_link) |
