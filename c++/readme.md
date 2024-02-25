@@ -1,4 +1,4 @@
-# C++ Cheatsheet - A Beginners Guide
+# C++ Fundamentals - A Beginners Guide
 
 This is a simple C++ cheat sheet for beginners. It is a quick reference guide to the C++ language. It is not a tutorial, but it is a handy reference to the C++ syntax.
 
