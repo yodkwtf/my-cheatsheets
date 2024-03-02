@@ -67,7 +67,7 @@ MySQL can be installed from the official website or using a package manager like
 #### Download and Install
 
 1. Visit MySQL's official website
-2. Go to **MySQL Installer Method** and download the installer
+2. Go to [MySQL Installer Method](https://dev.mysql.com/downloads/installer/) and download the installer
 3. Open the installer and check the tools you want to install
    1. Select the custom option
    2. Remove the Visual Studio option (2GB)
