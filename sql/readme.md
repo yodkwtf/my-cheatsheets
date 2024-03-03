@@ -67,7 +67,7 @@ MySQL can be installed from the official website or using a package manager like
 #### Download and Install
 
 1. Visit MySQL's official website
-2. Go to **MySQL Installer Method** and download the installer
+2. Go to [MySQL Installer Method](https://dev.mysql.com/downloads/installer/) and download the installer
 3. Open the installer and check the tools you want to install
    1. Select the custom option
    2. Remove the Visual Studio option (2GB)
@@ -98,7 +98,17 @@ MySQL can be installed from the official website or using a package manager like
 6. Click on the lightning bolt to execute the query
 7. Click on the floppy disk to save the query
 
-<!-- Running SQL from Command Line (74) -->
+#### Setting up SQL in VS Code
+
+1. Open VS Code.
+2. Go to extensions in sidebar.
+3. Search for **Database Client** and **Database Client JDBC** and install both.
+4. A Database icon will appear in sidebar, all the databases and their tables will appear here.
+5. Click on the database icon and setup a new connection.
+6. Create a new file with .sql extension(ex- test.sql).
+7. Now you can write your sql commands here and execute them.
+
+> TIP - To make your sql code more readable install **SQL Formatter** extension and set it as default formatter.
 
 ## Databases
 
