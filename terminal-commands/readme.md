@@ -35,41 +35,41 @@ The terminal is a text-based interface for interacting with your computer. It al
 
 The following are some of the most commonly used terminal commands:
 
-#### man [command]
+- #### man [command]
 
-Used to show the manual/documentation for other commands.
-It shows all the available options, flags, and arguments for the command.
+  Used to show the manual/documentation for other commands.
+  It shows all the available options, flags, and arguments for the command.
 
-```sh
-man ls
-```
+  ```sh
+  man ls
+  ```
 
-In Windows, `man` is not available. You can use `--help` instead.
+  In Windows, `man` is not available. You can use `--help` instead.
 
-```sh
-ls --help
-```
+  ```sh
+  ls --help
+  ```
 
-#### whoami
+- #### whoami
 
-Prints the username of the current user
+  Prints the username of the current user
 
-```sh
-whoami # yodkwtf
-```
+  ```sh
+  whoami # yodkwtf
+  ```
 
-#### date
+- #### date
 
-Prints the current date and time.
+  Prints the current date and time.
 
-```sh
-date # Fri 10 Dec 2021 10:00:00 AM IST
-```
+  ```sh
+  date # Fri 10 Dec 2021 10:00:00 AM IST
+  ```
 
-#### clear
+- #### clear
 
-Clears the terminal screen. Works same as `Ctrl + L`.
+  Clears the terminal screen. Works same as `Ctrl + L`.
 
-```sh
-clear
-```
+  ```sh
+  clear
+  ```
