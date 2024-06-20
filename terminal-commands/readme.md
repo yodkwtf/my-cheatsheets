@@ -52,7 +52,7 @@ The following are some of the most commonly used terminal commands:
 
 - #### whoami
 
-  Prints the username of the current user
+  Prints the username of the current user.
 
   ```sh
   whoami # yodkwtf
@@ -72,4 +72,129 @@ The following are some of the most commonly used terminal commands:
 
   ```sh
   clear
+  ```
+
+## File System Navigation
+
+The following commands are used to navigate around the file system:
+
+- #### pwd
+
+  Prints the current working directory.
+
+  ```sh
+  pwd # /home/yodkwtf
+  ```
+
+  If you see `~` in the path, it represents the home directory.
+
+- #### ls [dirname]
+
+  Lists the files and directories within a directory. By default, it lists the files in the current directory.
+
+  ```sh
+  ls
+  ```
+
+  To list files in a specific directory, provide the directory name as an argument.
+
+  ```sh
+  ls /path/to/directory
+  # ls /Downloads/
+  ```
+
+  To list all files (including hidden files), use the `-a` flag.
+
+  ```sh
+  ls -a
+  ```
+
+  To list files with more details (size, permissions, etc.), use the `-l` flag.
+
+  ```sh
+  ls -l
+  ```
+
+  To reverse the order of the list, use the `-r` flag.
+
+  ```sh
+  ls -r
+  ```
+
+  We can also combine flags.
+
+  ```sh
+  ls -ra # hidden files will be at the bottom
+  ```
+
+  There are many more flags available. You can check the manual for more information.
+
+- #### cd [dirname]
+
+  Changes the current directory to the specified directory.
+
+  ```sh
+  cd /path/to/directory
+  # cd /Downloads/
+  ```
+
+  To go to the home directory, use `cd` without any arguments.
+
+  ```sh
+  cd
+  ```
+
+  Or use `cd ~`.
+
+  ```sh
+  cd ~
+  ```
+
+  To go to the last directory you were in, use `cd -`.
+
+  ```sh
+  cd -
+  ```
+
+  To go up one directory, use `cd ..`.
+
+  ```sh
+  cd ..
+  ```
+
+  To go to the root directory of the machine, use `cd /`.
+
+  ```sh
+  cd /
+  ```
+
+- #### open [file/folder]
+
+  To open files, there are different commands based on the operating system.
+
+  On MacOS, you can use `open`.
+
+  ```sh
+  open filename.txt
+  open Downloads/
+  ```
+
+  On Linux, you can use `xdg-open`.
+
+  ```sh
+  xdg-open filename.txt
+  xdg-open Downloads/
+  ```
+
+  On Windows, you can use `start`.
+
+  ```sh
+  start filename.txt
+  start Downloads/
+  ```
+
+  We can also open URLs using the same command.
+
+  ```sh
+  open https://yodkwtf.com
   ```
