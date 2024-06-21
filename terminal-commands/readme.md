@@ -401,3 +401,37 @@ The following commands are used to perform operations on files:
   ```sh
   tail -n 20 -f filename.txt
   ```
+
+- #### nano [filename]
+
+  Opens a file in the nano text editor.
+
+  ```sh
+  nano filename.txt
+  ```
+
+  Nano is a simple text editor that is easy to use. It shows the available commands at the bottom of the screen.
+
+  To save the file, press `Ctrl + O`.
+
+  To exit, press `Ctrl + X`.
+
+- #### echo [text]
+
+  Prints text to the terminal.
+
+  ```sh
+  echo "Hello, World!"
+  ```
+
+  To write text to a file, use the `>` operator.
+
+  ```sh
+  echo "Hello, World!" > filename.txt
+  ```
+
+  To append to a file, use the `>>` operator.
+
+  ```sh
+  echo "Hello, World!" >> filename.txt
+  ```
