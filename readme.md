@@ -19,7 +19,7 @@ I created these while learning the respective technologies and thought I'd combi
 | React Native                  |   [View Here](/react-native/readme.md)    | [Download](https://drive.google.com/file/d/1qjKg68lyb4g6LhVOgGk-OHaw1xfCdSQT/view?usp=drive_link) |
 | Sass-101 Guide                |       [View Here](/sass/readme.md)        | [Download](https://drive.google.com/file/d/1wuNVOe0IH7wl2HfN6oDIko_yL2CVfa0E/view?usp=share_link) |
 | SQL Fundamentals              |        [View Here](/sql/readme.md)        | [Download](https://drive.google.com/file/d/17JpWnQXLTszpRNzxJp9_6gN3Tqm2dEgV/view?usp=drive_link) |
-| Terminal Commands             | [View Here](/terminal-commands/readme.md) |                                             Not Ready                                             |
+| Terminal Commands             | [View Here](/terminal-commands/readme.md) | [Download](https://drive.google.com/file/d/17PtMPzA5rgdAF9L99anl4sjdP4a3jd34/view?usp=drive_link) |
 | The Interview Guide           |  [View Here](/interview-guide/readme.md)  | [Download](https://drive.google.com/file/d/1W4CHYeXOr8FzA5vajqlxmiDf18lpIX1c/view?usp=share_link) |
 | TypeScript                    |    [View Here](/typescript/readme.md)     | [Download](https://drive.google.com/file/d/1H-Sn67-XpCIWr-nGPQpk7lm0JAuXrRBB/view?usp=share_link) |
 

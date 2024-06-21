@@ -1,6 +1,41 @@
-# Terminal Commands - A Cheatsheet to Basics
+# Terminal Commands - A Beginner's Guide
 
-This cheat sheet is intended to be a quick refresher for the main concepts and commands involved in using a terminal. It is not a comprehensive guide, but should be enough to get the basics covered.
+This cheat sheet is intended to be a quick refresher for the main concepts and commands involved in using a terminal. It is not a comprehensive guide but should be enough to get the basics covered.
+
+## Contents
+
+1. [What is Terminal?](#what-is-terminal)
+2. [Keyboard Shortcuts](#some-keyboard-shortcuts)
+3. [Basic Commands](#basic-commands)
+   - [man [command]](#man-command)
+   - [whoami](#whoami)
+   - [date](#date)
+   - [clear](#clear)
+4. [File System Navigation](#file-system-navigation)
+   - [pwd](#pwd)
+   - [ls [dirname]](#ls-dirname)
+   - [cd [dirname]](#cd-dirname)
+   - [open [file/folder]](#open-filefolder)
+5. [File Operations](#file-operations)
+   - [mkdir [dirname]](#mkdir-dirname)
+   - [touch [filename]](#touch-filename)
+   - [rm [filename]](#rm-filename)
+   - [cp [source] [destination]](#cp-source-destination)
+   - [mv [source] [destination]](#mv-source-destination)
+   - [cat [filename]](#cat-filename)
+   - [less [filename]](#less-filename)
+   - [head -n [lines] [filename]](#head--n-lines-filename)
+   - [tail -n [lines] [filename]](#tail--n-lines-filename)
+   - [nano [filename]](#nano-filename)
+   - [echo [text]](#echo-text)
+6. [Other Useful Commands](#other-useful-commands)
+   - [grep [pattern] [filename]](#grep-pattern-filename)
+   - [find [directory] -name [filename]](#find-directory--name-filename)
+   - [piping](#piping)
+   - [symlinks (symbolic links)](#symlinks-symbolic-links)
+   - [tar](#tar)
+   - [history](#history)
+7. [Conclusion](#conclusion)
 
 ## What is Terminal?
 
@@ -68,7 +103,7 @@ The following are some of the most commonly used terminal commands:
 
 - #### clear
 
-  Clears the terminal screen. Works same as `Ctrl + L`.
+  Clears the terminal screen. Works the same as `Ctrl + L`.
 
   ```sh
   clear
@@ -252,7 +287,7 @@ The following commands are used to perform operations on files:
   rm -r directoryname
   ```
 
-  To remove a non empty directory without confirmation, use the `-rf` flag to force it.
+  To remove a non-empty directory without confirmation, use the `-rf` flag to force it.
 
   ```sh
   rm -rf directoryname
@@ -295,7 +330,7 @@ The following commands are used to perform operations on files:
   mv file.txt newfile.txt
   ```
 
-  To move a file as well as rename it, specify the new path and file name.
+  To move a file and rename it, specify the new path and file name.
 
   ```sh
   mv file.txt /path/to/destination/newfile.txt
@@ -321,7 +356,7 @@ The following commands are used to perform operations on files:
   cat file1.txt file2.txt file3.txt
   ```
 
-  Can also be used to write to a file.
+  It can also be used to write to a file.
 
   ```sh
   cat > newfile.txt # opens the file in write mode
@@ -337,19 +372,19 @@ The following commands are used to perform operations on files:
   cat >> filename.txt
   ```
 
-  We can also use just `>` (piping) to do the same things .
+  We can also use `>` (piping) to do the same things.
 
   ```sh
   > newfile.txt
   ```
 
-  We can also use `-n` flag to display line numbers.
+  We can also use the `-n` flag to display line numbers.
 
   ```sh
   cat -n filename.txt
   ```
 
-  This is just the a few of the things cat can do. Check the manual for more information.
+  These are just a few of the things `cat` can do. Check the manual for more information.
 
 - #### less [filename]
 
@@ -610,3 +645,8 @@ The following commands are used to perform operations on files:
   ```sh
   !100
   ```
+
+## Conclusion
+
+If you found the cheatsheet helpful please check out more of my work on [yodkwtf.com](https://yodkwtf.com) or follow me on [twitter](https://twitter.com/yodkwtf).
+I also run a small youtube channel called [Yodkwtf Academy](https://youtube.com/yodkwtf).
