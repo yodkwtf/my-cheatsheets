@@ -198,3 +198,206 @@ The following commands are used to navigate around the file system:
   ```sh
   open https://yodkwtf.com
   ```
+
+## File Operations
+
+The following commands are used to perform operations on files:
+
+- #### mkdir [dirname]
+
+  Creates a new directory with the specified name.
+
+  ```sh
+  mkdir my-project
+  ```
+
+- #### touch [filename]
+
+  Creates a new file with the specified name.
+
+  ```sh
+  touch filename.txt
+  ```
+
+  We can also create multiple files at once.
+
+  ```sh
+  touch file1.txt file2.txt file3.txt
+  ```
+
+- #### rm [filename]
+
+  Removes a file. Be careful with this command as it permanently deletes the file.
+
+  ```sh
+  rm filename.txt
+  ```
+
+  To get a confirmation prompt before deleting each file, use the `-i` flag.
+
+  ```sh
+  rm -i filename.txt
+  ```
+
+  To remove a directory, use the `-r` flag.
+
+  ```sh
+  rm -r directoryname
+  ```
+
+  To remove a non empty directory without confirmation, use the `-rf` flag to force it.
+
+  ```sh
+  rm -rf directoryname
+  ```
+
+  > **Note**: Be very careful with the `rm -rf` command. It can delete all the files on your system if used incorrectly.
+
+- #### cp [source] [destination]
+
+  Copies a file from the source to the destination.
+
+  ```sh
+  cp file.txt /path/to/destination/
+  ```
+
+  If you want to keep the same file name, you can specify the destination directory only otherwise you can specify the new file name.
+
+  ```sh
+  cp file.txt /path/to/destination/
+  cp file.txt /path/to/destination/newfile.txt
+  ```
+
+  To copy a directory, use the `-r` flag.
+
+  ```sh
+  cp -r directoryname /path/to/destination/
+  ```
+
+- #### mv [source] [destination]
+
+  Moves a file from the source to the destination. It can also be used to rename a file.
+
+  ```sh
+  mv file.txt /path/to/destination/
+  ```
+
+  To rename a file, specify the new file name as the destination.
+
+  ```sh
+  mv file.txt newfile.txt
+  ```
+
+  To move a file as well as rename it, specify the new path and file name.
+
+  ```sh
+  mv file.txt /path/to/destination/newfile.txt
+  ```
+
+  To move a directory, use the `-r` flag.
+
+  ```sh
+  mv -r directoryname /path/to/destination/
+  ```
+
+- #### cat [filename]
+
+  Displays the contents of a file.
+
+  ```sh
+  cat filename.txt
+  ```
+
+  To display the contents of multiple files, specify all the file names.
+
+  ```sh
+  cat file1.txt file2.txt file3.txt
+  ```
+
+  Can also be used to write to a file.
+
+  ```sh
+  cat > newfile.txt # opens the file in write mode
+
+  # type the content and press Ctrl + D to save and exit
+  ```
+
+  If the file does not exist, it will create a new file.
+
+  If the file already exists, it will overwrite the content. To append to the file, use the `>>` operator.
+
+  ```sh
+  cat >> filename.txt
+  ```
+
+  We can also use just `>` (piping) to do the same things .
+
+  ```sh
+  > newfile.txt
+  ```
+
+  We can also use `-n` flag to display line numbers.
+
+  ```sh
+  cat -n filename.txt
+  ```
+
+  This is just the a few of the things cat can do. Check the manual for more information.
+
+- #### less [filename]
+
+  Displays the contents of a file one page at a time. Useful for reading large files.
+
+  ```sh
+  less filename.txt
+  ```
+
+  To navigate through the file, use the arrow keys or the following keys:
+
+  - **Space**: Move forward one page.
+  - **B**: Move backward one page.
+  - **Q**: Quit out of the file.
+
+  To search for a term, press `/` and type the search term.
+
+  To exit, press `Q`.
+
+- #### head -n [lines] [filename]
+
+  Displays the first few lines of a file. By default, it displays the first 10 lines.
+
+  ```sh
+  head filename.txt
+  ```
+
+  You can specify the number of lines to display.
+
+  ```sh
+  head -n 20 filename.txt
+  ```
+
+- #### tail -n [lines] [filename]
+
+  Displays the last few lines of a file. By default, it displays the last 10 lines.
+
+  ```sh
+  tail filename.txt
+  ```
+
+  You can specify the number of lines to display.
+
+  ```sh
+  tail -n 20 filename.txt
+  ```
+
+  To follow the output of a file (like logs), use the `-f` flag.
+
+  ```sh
+  tail -f filename.txt
+  ```
+
+  To display the last 20 lines and follow the output, use the `-n` flag.
+
+  ```sh
+  tail -n 20 -f filename.txt
+  ```
