@@ -22,6 +22,7 @@ I created these while learning the respective technologies and thought I'd combi
 | Terminal Commands             | [View Here](/terminal-commands/readme.md) | [Download](https://drive.google.com/file/d/17PtMPzA5rgdAF9L99anl4sjdP4a3jd34/view?usp=drive_link) |
 | The Interview Guide           |  [View Here](/interview-guide/readme.md)  | [Download](https://drive.google.com/file/d/1W4CHYeXOr8FzA5vajqlxmiDf18lpIX1c/view?usp=share_link) |
 | TypeScript                    |    [View Here](/typescript/readme.md)     | [Download](https://drive.google.com/file/d/1H-Sn67-XpCIWr-nGPQpk7lm0JAuXrRBB/view?usp=share_link) |
+| Vue.js Fundamentals           |      [View Here](/vue.js/readme.md)       | [Download](https://drive.google.com/file/d/12KC6AVnZwKVR8iZpKxhDgVUShQUdglzq/view?usp=drive_link) |
 
 ## Usage
 
